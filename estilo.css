@@ -1,0 +1,78 @@
+
+body{
+    margin:50px;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+}
+.abc{
+    background-size: cover;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:80px;
+    padding-top: none;
+    padding-bottom: none;
+    margin-top: none;
+    border-radius: 50%;
+} 
+
+input[type="text"]
+ {
+    width:250px;
+    padding:10px;
+    margin-bottom:20px;
+    border: 1px solid #ccc;
+    border-radius :5px;
+}
+
+
+
+.card button{
+    background-color:        #d32525; /* Cor de fundo padrão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: 2px solid #ecff22; /* Borda colorida */
+    border-radius: 8px; /* Bordas arredondadas */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem decoração de texto */
+    display: inline-block; /* Tipo de exibição */
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margens externas */
+    cursor: pointer; /* Estilo do cursor */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+  }
+  
+  .card button:hover {
+    background-color: #eb391a; /* Cor de fundo ao passar o mouse */
+  }
+  
+.card button:active {
+    background-color: #f7de1c; /* Cor de fundo ao clicar */
+  }
+
+  .card {
+    background-color: rgba(67, 102, 102, 0.09);
+    width:400px;
+    height:600px;
+    border-radius:12px;
+    box-shadow: 5px 5px 17px;
+
+    height: 50%;
+    margin-top: 210px;
+  margin-left:   700px;
+  
+    
+    
+  } 
+  .card div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    height: 50%;
+  }
